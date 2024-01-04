@@ -7,20 +7,20 @@
 /* --main-fg:#b4befe; */
 /* --main-fg2:#cba6f7; */
 /* rosepine */
---main-bg:#191724;
---main-bg2:#1f1d2e;
---main-fg:#e0def4;
---main-fg2:#eb6f92;
+/*--main-bg:#191724; */
+/*--main-bg2:#1f1d2e; */
+/*--main-fg:#e0def4; */
+/*--main-fg2:#eb6f92; */
 /* dracula */
 /* --main-bg:#282a36; */
 /* --main-bg2:#44475a; */
 /* --main-fg:#f8f8f2; */
 /* --main-fg2:#ff79c6; */
 /* gruvbox */
-/* --main-bg:#282828; */
-/* --main-bg2:#3c3836;  */
-/* --main-fg:#ebdbb2;   */
-/* --main-fg2:#d65d0e;   */
+--main-bg:#282828;
+--main-bg2:#3c3836;
+--main-fg:#ebdbb2;
+--main-fg2:#d65d0e;
 /* tokyonight */
 /* --main-bg:#1a1b26;   */
 /* --main-bg2:#1f2335;   */
@@ -39,7 +39,7 @@
 };
 
 * {
-  font-family: 'Fira Code', Courier, monospace;
+  font-family: 'JetBrainsMono NFM', Courier, monospace;
   padding: 0;
   margin: 0;  
   font-size: 21px;  

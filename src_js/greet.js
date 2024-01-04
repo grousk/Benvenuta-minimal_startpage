@@ -4,19 +4,19 @@ function generateGreeting(name) {
   let greeting = "";
 
   if (currentHour >= 5 && currentHour < 12) {
-    greeting = "Good morning " + name;
+    greeting = "Günaydın " + name;
   } else if (currentHour >= 12 && currentHour < 17) {
-    greeting = "Good afternoon " + name;
+    greeting = "Tünaydın " + name;
   } else if (currentHour >= 17 && currentHour < 21) {
     greeting = "Good evening " + name;
   } else {
-    greeting = "Good night " + name;
+    greeting = "İyi akşamlar " + name;
   }
 
   return greeting;
 }
 
 // Set the greeting in the HTML element with the id "greeting"
-const name = "Hitarth"; // Replace with the desired name
+const name = "Ömer"; // Replace with the desired name
 const greetingElement = document.getElementById("greeting");
 greetingElement.textContent = generateGreeting(name);
